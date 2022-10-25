@@ -1,0 +1,66 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\work\psou\.metadata\.plugins\org.eclipse.core.resources\.projects\django4_shop\com.python.pydev.analysis\v2_indexcache
+basket_app.admin|1665978186709597000|C:\work\psou\django4_shop\basket_app\admin.py
+basket_app.models|1665978186724173000|C:\work\psou\django4_shop\basket_app\models.py
+django4_shop.asgi|1665978148916014400|C:\work\psou\django4_shop\django4_shop\asgi.py
+django4_shop.__init__|1665978147264022100|C:\work\psou\django4_shop\django4_shop\__init__.py
+basket_app.migrations.__init__|1665978186743161200|C:\work\psou\django4_shop\basket_app\migrations\__init__.py
+django4_shop.settings|1665978215772009200|C:\work\psou\django4_shop\django4_shop\settings.py
+basket_app.tests|1665978186732645000|C:\work\psou\django4_shop\basket_app\tests.py
+manage|1665978148948133700|C:\work\psou\django4_shop\manage.py
+basket_app.apps|1665978220855884400|C:\work\psou\django4_shop\basket_app\apps.py
+basket_app.views|1665988814518750600|C:\work\psou\django4_shop\basket_app\views.py
+basket_app.__init__|1665978186740653000|C:\work\psou\django4_shop\basket_app\__init__.py
+django4_shop.urls|1665985605746105700|C:\work\psou\django4_shop\django4_shop\urls.py
+django4_shop.wsgi|1665978148935770100|C:\work\psou\django4_shop\django4_shop\wsgi.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+3=C:\work\psou\django4_shop\django4_shop\asgi.py
+4=django4_shop.asgi
+15=BaesketAppConfig
+9=C:\work\psou\django4_shop\basket_app\views.py
+2=django4_shop.settings
+12=manage
+13=C:\work\psou\django4_shop\django4_shop\urls.py
+5=C:\work\psou\django4_shop\django4_shop\wsgi.py
+8=basket_app.apps
+10=basket_app.views
+11=C:\work\psou\django4_shop\manage.py
+14=django4_shop.urls
+7=C:\work\psou\django4_shop\basket_app\apps.py
+6=django4_shop.wsgi
+1=C:\work\psou\django4_shop\django4_shop\settings.py
+-- END DICTIONARY
+-- START TREE 1
+23
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^95#1*19@
+bae|1|BaesketAppConfig!7^4#7*65@
+bas|1|BASE_DIR!1^16#1*19@
+buy|1|buyFunc!9^38#5*82@
+car|1|cartFunc!9^16#5*82@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+def|1|DEFAULT_AUTO_FIELD!1^118#1*19@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^101#1*19@
+mai|2|main!11^7#5*98@mainFunc!9^4#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+pag|2|page2Func!9^12#5*82@page1Func!9^8#5*82@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^113#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^103#1*19@
+url|1|urlpatterns!13^28#1*115@
+use|2|USE_I18N!1^105#1*19@USE_TZ!1^107#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+2
+def|1|default_auto_field!15&7^5#5*67@
+nam|1|name!15&7^6#5*67@
+-- END TREE

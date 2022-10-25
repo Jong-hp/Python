@@ -1,0 +1,19 @@
+from django.shortcuts import render
+import time
+
+# Create your views here.
+def testFunc():
+    
+
+
+def indexFunc(request):
+    return render(request, 'abc.html')
+
+
+def Func1(request):
+    pass
+
+
+def Func2(request):
+    pass
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+** 상품 정보 **<p/>
+<div style="width: 80%; text-align: right;">
+   <a href="/sangpum/insert">상품추가</a>
+</div>
+<table border="1" style="width: 80%">
+   <tr style="background-color:cyan">
+      <th>코드</th><th>상품명</th><th>수량</th><th>단가</th><th>기타</th>
+   </tr>
+   {% if sangpums %}
+   {% for s in sangpums %}
+   <tr>
+      <td>{{s.code}}</td> <!-- select문의 결과를 출력할 때는 tuple 이므로 s.0, ... 사용 -->
+      <td>{{s.sang}}</td>
+      <td>{{s.su}}</td>
+      <td>{{s.dan}}</td>
+      <td>
+         <a href="/sangpum/update?code={{s.code}}">수정</a>   /
+         <a href="/sangpum/delete?code={{s.code}}">삭제</a>
+      </td>
+   </tr>
+   {% endfor %}
+   
+   <!-- 페이징 처리 -->
+   <tr>
+   	<td colsapn="5">
+   	{% if sangpums.paginator.num_pages > 1 %}
+   		<div>
+   		{% if sangpums.has_previous %}
+   			<a href="/sangpum/list?page={{sangpums.previous_page_number}}">&laquo;이전</a>
+   		{% endif %}
+   		{% if sangpums.has_next %}
+   			<a href="/sangpum/list?page={{sangpums.next_page_number}}">다음&raquo;</a>
+   		{% endif %}
+   		&nbsp;&nbsp;
+   		(페이지:{{sangpums.number}})
+   		</div>
+   	
+   	{% endif %}
+   	</td>
+   </tr>
+   
+   
+   
+   {% else %}
+   <tr>
+      <td colspan="5">자료 없음</td>
+   </tr>
+   {% endif %}
+</table>
+</body>
+</html>

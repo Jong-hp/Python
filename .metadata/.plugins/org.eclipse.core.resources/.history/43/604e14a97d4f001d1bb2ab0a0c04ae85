@@ -1,0 +1,12 @@
+from django.shortcuts import render
+
+# Create your views here.
+def replyFunc(request):
+    try:
+        
+    except Exception as e:
+        print('replyFunc err : ', e)
+        return render(request, 'error.html')
+
+def replyOkFunc(request):
+    pass    

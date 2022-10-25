@@ -1,0 +1,32 @@
+from django.shortcuts import render
+import time
+
+# Create your views here.
+
+lan = {
+    'id':123,
+    'name':'파이썬',
+    'history':[
+        {'date':'2022-9-20', 'exam':'basic'},
+        {'date':'2022-10-20', 'exam':'django'},
+    ]
+}
+
+def testFunc():
+    print(type(lan))    # <class 'dict'>
+    
+    # JSON 인코딩
+    
+
+def indexFunc(request):
+    testFunc():
+    return render(request, 'abc.html')
+
+
+def Func1(request):
+    pass
+
+
+def Func2(request):
+    pass
+

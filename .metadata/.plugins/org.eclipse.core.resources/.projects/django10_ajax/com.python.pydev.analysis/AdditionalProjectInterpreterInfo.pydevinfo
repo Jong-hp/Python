@@ -1,0 +1,66 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\work\psou\.metadata\.plugins\org.eclipse.core.resources\.projects\django10_ajax\com.python.pydev.analysis\v2_indexcache
+django10_ajax.settings|1666227565581972600|C:\work\psou\django10_ajax\django10_ajax\settings.py
+myapp.views|1666234249800866700|C:\work\psou\django10_ajax\myapp\views.py
+django10_ajax.__init__|1666227535068360500|C:\work\psou\django10_ajax\django10_ajax\__init__.py
+myapp.migrations.__init__|1666227552268955300|C:\work\psou\django10_ajax\myapp\migrations\__init__.py
+django10_ajax.asgi|1666227536520956900|C:\work\psou\django10_ajax\django10_ajax\asgi.py
+myapp.models|1666227552248957500|C:\work\psou\django10_ajax\myapp\models.py
+manage|1666227536542959100|C:\work\psou\django10_ajax\manage.py
+myapp.admin|1666227552232955300|C:\work\psou\django10_ajax\myapp\admin.py
+django10_ajax.urls|1666234133975735600|C:\work\psou\django10_ajax\django10_ajax\urls.py
+myapp.apps|1666227553559957600|C:\work\psou\django10_ajax\myapp\apps.py
+myapp.tests|1666227552256955300|C:\work\psou\django10_ajax\myapp\tests.py
+django10_ajax.wsgi|1666227536533956800|C:\work\psou\django10_ajax\django10_ajax\wsgi.py
+myapp.__init__|1666227552265994600|C:\work\psou\django10_ajax\myapp\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+3=C:\work\psou\django10_ajax\django10_ajax\asgi.py
+13=C:\work\psou\django10_ajax\django10_ajax\urls.py
+2=django10_ajax.settings
+8=myapp.views
+15=MyappConfig
+1=C:\work\psou\django10_ajax\django10_ajax\settings.py
+7=C:\work\psou\django10_ajax\myapp\views.py
+5=C:\work\psou\django10_ajax\django10_ajax\wsgi.py
+4=django10_ajax.asgi
+10=manage
+11=C:\work\psou\django10_ajax\myapp\apps.py
+14=django10_ajax.urls
+12=myapp.apps
+9=C:\work\psou\django10_ajax\manage.py
+6=django10_ajax.wsgi
+-- END DICTIONARY
+-- START TREE 1
+23
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^95#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+def|1|DEFAULT_AUTO_FIELD!1^118#1*19@
+fun|2|Func2!7^47#5*66@Func1!7^38#5*66@
+ind|1|indexFunc!7^33#5*66@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|2|lan!7^15#1*67@LANGUAGE_CODE!1^101#1*19@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mya|1|MyappConfig!11^4#7*97@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^113#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tes|1|testFunc!7^17#5*66@
+tim|1|TIME_ZONE!1^103#1*19@
+url|1|urlpatterns!13^26#1*115@
+use|2|USE_I18N!1^105#1*19@USE_TZ!1^107#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+2
+def|1|default_auto_field!15&11^5#5*99@
+nam|1|name!15&11^6#5*99@
+-- END TREE

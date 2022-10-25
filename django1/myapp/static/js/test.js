@@ -1,0 +1,4 @@
+ 
+ function abcFunc(){
+	history.back();	
+}

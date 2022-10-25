@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+GET / POST 연습<p/>
+<a href="/gptest/insert">자료 입력</a>
+<br>
+<a href="/">메인 페이지</a>
+</body>
+</html>

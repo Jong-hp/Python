@@ -1,0 +1,14 @@
+MODULES_MANAGER_V3
+django1.__init__|C:\work\psou\django1\django1\__init__.py
+django1.asgi|C:\work\psou\django1\django1\asgi.py
+django1.settings|C:\work\psou\django1\django1\settings.py
+django1.urls|C:\work\psou\django1\django1\urls.py
+django1.wsgi|C:\work\psou\django1\django1\wsgi.py
+manage|C:\work\psou\django1\manage.py
+myapp.__init__|C:\work\psou\django1\myapp\__init__.py
+myapp.admin|C:\work\psou\django1\myapp\admin.py
+myapp.apps|C:\work\psou\django1\myapp\apps.py
+myapp.migrations.__init__|C:\work\psou\django1\myapp\migrations\__init__.py
+myapp.models|C:\work\psou\django1\myapp\models.py
+myapp.tests|C:\work\psou\django1\myapp\tests.py
+myapp.views|C:\work\psou\django1\myapp\views.py

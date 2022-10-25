@@ -1,0 +1,8 @@
+from django.urls import path
+from gpapp  import views
+
+urlpatterns = [
+   
+    path('insert/', views.insertFunc),   # Function views
+    path('insertprocess/', views.insertprocessFunc),   # Function views
+]

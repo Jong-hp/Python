@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;django8_sangdata/mysangpum/templates/ update.html&apos; to &apos;update.html&apos;" description="Rename resource &apos; update.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mysangpum/templates/ update.html" name="update.html" stamp="1666140248038" updateReferences="true"/>
+</session>

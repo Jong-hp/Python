@@ -1,0 +1,14 @@
+from django.shortcuts import render
+from django.views.generic.base import TemplateView
+
+# Create your views here.
+def mainFunc(request):
+    return render(request, 'index.html')
+
+
+class Callview(TemplateView):
+    template_name = "callget.html"
+    
+
+def insertFunc(request):
+    return render(request, 'insert.html')

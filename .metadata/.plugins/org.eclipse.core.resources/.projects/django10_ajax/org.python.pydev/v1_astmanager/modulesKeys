@@ -1,0 +1,14 @@
+MODULES_MANAGER_V3
+django10_ajax.__init__|C:\work\psou\django10_ajax\django10_ajax\__init__.py
+django10_ajax.asgi|C:\work\psou\django10_ajax\django10_ajax\asgi.py
+django10_ajax.settings|C:\work\psou\django10_ajax\django10_ajax\settings.py
+django10_ajax.urls|C:\work\psou\django10_ajax\django10_ajax\urls.py
+django10_ajax.wsgi|C:\work\psou\django10_ajax\django10_ajax\wsgi.py
+manage|C:\work\psou\django10_ajax\manage.py
+myapp.__init__|C:\work\psou\django10_ajax\myapp\__init__.py
+myapp.admin|C:\work\psou\django10_ajax\myapp\admin.py
+myapp.apps|C:\work\psou\django10_ajax\myapp\apps.py
+myapp.migrations.__init__|C:\work\psou\django10_ajax\myapp\migrations\__init__.py
+myapp.models|C:\work\psou\django10_ajax\myapp\models.py
+myapp.tests|C:\work\psou\django10_ajax\myapp\tests.py
+myapp.views|C:\work\psou\django10_ajax\myapp\views.py

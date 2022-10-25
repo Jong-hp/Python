@@ -1,0 +1,16 @@
+MODULES_MANAGER_V3
+django6_maria.__init__|C:\work\psou\django6_maria\django6_maria\__init__.py
+django6_maria.asgi|C:\work\psou\django6_maria\django6_maria\asgi.py
+django6_maria.settings|C:\work\psou\django6_maria\django6_maria\settings.py
+django6_maria.urls|C:\work\psou\django6_maria\django6_maria\urls.py
+django6_maria.wsgi|C:\work\psou\django6_maria\django6_maria\wsgi.py
+manage|C:\work\psou\django6_maria\manage.py
+myguest.__init__|C:\work\psou\django6_maria\myguest\__init__.py
+myguest.admin|C:\work\psou\django6_maria\myguest\admin.py
+myguest.apps|C:\work\psou\django6_maria\myguest\apps.py
+myguest.migrations.0001_initial|C:\work\psou\django6_maria\myguest\migrations\0001_initial.py
+myguest.migrations.__init__|C:\work\psou\django6_maria\myguest\migrations\__init__.py
+myguest.models|C:\work\psou\django6_maria\myguest\models.py
+myguest.tests|C:\work\psou\django6_maria\myguest\tests.py
+myguest.urls|C:\work\psou\django6_maria\myguest\urls.py
+myguest.views|C:\work\psou\django6_maria\myguest\views.py

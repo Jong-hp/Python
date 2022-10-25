@@ -1,0 +1,100 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\work\psou\.metadata\.plugins\org.eclipse.core.resources\.projects\django8_sangdata\com.python.pydev.analysis\v2_indexcache
+mysangpum.models|1666072798157882200|C:\work\psou\django8_sangdata\mysangpum\models.py
+mysangpum.migrations.0001_initial|1666073486324223100|C:\work\psou\django8_sangdata\mysangpum\migrations\0001_initial.py
+django8_sangdata.settings|1666072309286333700|C:\work\psou\django8_sangdata\django8_sangdata\settings.py
+mysangpum.tests|1666072187673690800|C:\work\psou\django8_sangdata\mysangpum\tests.py
+mysangpum.migrations.__init__|1666072187678751600|C:\work\psou\django8_sangdata\mysangpum\migrations\__init__.py
+django8_sangdata.__init__|1666072163654963400|C:\work\psou\django8_sangdata\django8_sangdata\__init__.py
+manage|1666072164781518900|C:\work\psou\django8_sangdata\manage.py
+django8_sangdata.asgi|1666072164754505500|C:\work\psou\django8_sangdata\django8_sangdata\asgi.py
+django8_sangdata.wsgi|1666072164774503500|C:\work\psou\django8_sangdata\django8_sangdata\wsgi.py
+mysangpum.admin|1666072187667861900|C:\work\psou\django8_sangdata\mysangpum\admin.py
+mysangpum.apps|1666072188864105000|C:\work\psou\django8_sangdata\mysangpum\apps.py
+django8_sangdata.urls|1666085255830073600|C:\work\psou\django8_sangdata\django8_sangdata\urls.py
+mysangpum.urls|1666140076790528300|C:\work\psou\django8_sangdata\mysangpum\urls.py
+mysangpum.views|1666141687790473100|C:\work\psou\django8_sangdata\mysangpum\views.py
+mysangpum.__init__|1666072187675702100|C:\work\psou\django8_sangdata\mysangpum\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+12=mysangpum.migrations.0001_initial
+16=mysangpum.models
+1=C:\work\psou\django8_sangdata\django8_sangdata\settings.py
+2=django8_sangdata.settings
+23=MysangpumConfig
+11=C:\work\psou\django8_sangdata\mysangpum\migrations\0001_initial.py
+15=C:\work\psou\django8_sangdata\mysangpum\models.py
+24=Migration
+13=C:\work\psou\django8_sangdata\mysangpum\apps.py
+17=C:\work\psou\django8_sangdata\mysangpum\urls.py
+22=Sangdata.Meta
+10=manage
+4=django8_sangdata.asgi
+6=django8_sangdata.wsgi
+7=C:\work\psou\django8_sangdata\mysangpum\views.py
+9=C:\work\psou\django8_sangdata\manage.py
+14=mysangpum.apps
+8=mysangpum.views
+18=mysangpum.urls
+20=django8_sangdata.urls
+21=Sangdata
+5=C:\work\psou\django8_sangdata\django8_sangdata\wsgi.py
+19=C:\work\psou\django8_sangdata\django8_sangdata\urls.py
+3=C:\work\psou\django8_sangdata\django8_sangdata\asgi.py
+-- END DICTIONARY
+-- START TREE 1
+30
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^99#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+bus|0|
+con|1|config!7^16#1*67@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+def|1|DEFAULT_AUTO_FIELD!1^122#1*19@
+del|1|DeleteFunc!7^96#5*66@
+gog|0|
+ins|3|InsertOkFunc!7^64#5*66@INSTALLED_APPS!1^41#1*19@InsertFunc!7^61#5*66@
+jik|0|
+lan|1|LANGUAGE_CODE!1^105#1*19@
+lis|1|ListFunc!7^22#5*66@
+mai|2|MainFunc!7^19#5*66@main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!11^6#7*97@
+mys|1|MysangpumConfig!13^4#7*113@
+myt|0|
+roo|1|ROOT_URLCONF!1^53#1*19@
+san|1|Sangdata!15^4#7*129@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^117#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^107#1*19@
+upd|2|UpdateFunc!7^81#5*66@UpdateOkFunc!7^85#5*66@
+url|2|urlpatterns!17^11#1*147@urlpatterns!19^29#1*163@
+use|2|USE_TZ!1^111#1*19@USE_I18N!1^109#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+18
+bum|0|
+bus|0|
+cod|1|code!21&15^5#5*131@
+dan|1|dan!21&15^8#5*131@
+db_|1|db_table!22&15^12#9*131@
+def|1|default_auto_field!23&13^5#5*115@
+dep|1|dependencies!24&11^10#5*99@
+gog|0|
+ini|1|initial!24&11^8#5*99@
+iru|0|
+jik|0|
+man|1|managed!22&15^11#9*131@
+met|1|Meta!21&15^10#11*129@
+nai|0|
+nam|1|name!23&13^6#5*115@
+ope|1|operations!24&11^23#5*99@
+san|1|sang!21&15^6#5*131@
+su|1|su!21&15^7#5*131@
+-- END TREE

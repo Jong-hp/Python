@@ -1,0 +1,16 @@
+MODULES_MANAGER_V3
+django8_sangdata.__init__|C:\work\psou\django8_sangdata\django8_sangdata\__init__.py
+django8_sangdata.asgi|C:\work\psou\django8_sangdata\django8_sangdata\asgi.py
+django8_sangdata.settings|C:\work\psou\django8_sangdata\django8_sangdata\settings.py
+django8_sangdata.urls|C:\work\psou\django8_sangdata\django8_sangdata\urls.py
+django8_sangdata.wsgi|C:\work\psou\django8_sangdata\django8_sangdata\wsgi.py
+manage|C:\work\psou\django8_sangdata\manage.py
+mysangpum.__init__|C:\work\psou\django8_sangdata\mysangpum\__init__.py
+mysangpum.admin|C:\work\psou\django8_sangdata\mysangpum\admin.py
+mysangpum.apps|C:\work\psou\django8_sangdata\mysangpum\apps.py
+mysangpum.migrations.0001_initial|C:\work\psou\django8_sangdata\mysangpum\migrations\0001_initial.py
+mysangpum.migrations.__init__|C:\work\psou\django8_sangdata\mysangpum\migrations\__init__.py
+mysangpum.models|C:\work\psou\django8_sangdata\mysangpum\models.py
+mysangpum.tests|C:\work\psou\django8_sangdata\mysangpum\tests.py
+mysangpum.urls|C:\work\psou\django8_sangdata\mysangpum\urls.py
+mysangpum.views|C:\work\psou\django8_sangdata\mysangpum\views.py

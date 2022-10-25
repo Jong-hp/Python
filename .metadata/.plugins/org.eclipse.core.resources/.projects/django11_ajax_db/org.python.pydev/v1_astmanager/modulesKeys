@@ -1,0 +1,16 @@
+MODULES_MANAGER_V3
+aa|C:\work\psou\django11_ajax_db\aa.py
+django11_ajax_db.__init__|C:\work\psou\django11_ajax_db\django11_ajax_db\__init__.py
+django11_ajax_db.asgi|C:\work\psou\django11_ajax_db\django11_ajax_db\asgi.py
+django11_ajax_db.settings|C:\work\psou\django11_ajax_db\django11_ajax_db\settings.py
+django11_ajax_db.urls|C:\work\psou\django11_ajax_db\django11_ajax_db\urls.py
+django11_ajax_db.wsgi|C:\work\psou\django11_ajax_db\django11_ajax_db\wsgi.py
+manage|C:\work\psou\django11_ajax_db\manage.py
+myajax.__init__|C:\work\psou\django11_ajax_db\myajax\__init__.py
+myajax.admin|C:\work\psou\django11_ajax_db\myajax\admin.py
+myajax.apps|C:\work\psou\django11_ajax_db\myajax\apps.py
+myajax.migrations.0001_initial|C:\work\psou\django11_ajax_db\myajax\migrations\0001_initial.py
+myajax.migrations.__init__|C:\work\psou\django11_ajax_db\myajax\migrations\__init__.py
+myajax.models|C:\work\psou\django11_ajax_db\myajax\models.py
+myajax.tests|C:\work\psou\django11_ajax_db\myajax\tests.py
+myajax.views|C:\work\psou\django11_ajax_db\myajax\views.py

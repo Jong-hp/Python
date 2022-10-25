@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+* 장바구니 목록 *<p/>
+<table border="1">
+	<tr><th>삼품명</th></tr>
+	{% if products %}
+	{% for p in products %}
+	
+	{% endfor %}
+	{% else %}
+	<tr>
+		<td colspan="2">자료 없음</td>
+	</tr>
+	
+</table>
+</body>
+</html>

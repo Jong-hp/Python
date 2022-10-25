@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+let xhr;
+
+window.onload = function(){
+	document.querySelector("#btn1").addEventListener("click", ()=>{
+		// alert('a');
+		// XmlHttpResponse 객체로 웹서버와 통신
+		xhr.onreadystatechange = function(){
+			alert(xhr.readyState);
+		}
+	});
+}
+</script>
+</head>
+<body>
+Ajax 연습<p/>
+자료 입력 : <input type="text" id="txtMsg" value="korea">
+<button id="btn1">Ajax test1</button>
+<br>
+<div id="showData1"></div>
+<hr>
+<button id="btn2">Ajax test2</button>
+<div id="showData2"></div>
+<hr>
+<button id="btn3">Ajax test3</button>
+<div id="showData3"></div>
+</body>
+</html>

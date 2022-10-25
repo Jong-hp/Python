@@ -1,0 +1,20 @@
+from django.shortcuts import render
+from myboard.models import BoardTab
+
+# Create your views here.
+def replyFunc(request):
+    try:
+        data = BoardTab.objects.get(id=request.GET.get('id'))
+        context = {'data_one':data}
+        return render(request, 'rep/reply.html', context)
+    except Exception as e:
+        print('replyFunc err : ', e)
+        return render(request, 'error.html')
+
+def replyOkFunc(request):
+    if request.method == 'POST':
+       try:
+            
+        except Exception as e:
+            print('replyOkFunc err : ', e)
+            return render(request, 'error.html')     

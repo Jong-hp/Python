@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+** 방명록 글 쓰기 **<p/>
+<form acttion="/guest/insert" method="post">{% csrf_token %}
+
+
+
+</form>
+</body>
+</html>

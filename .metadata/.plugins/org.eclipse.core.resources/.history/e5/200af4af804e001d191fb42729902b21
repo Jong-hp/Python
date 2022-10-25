@@ -1,0 +1,21 @@
+from django.shortcuts import render
+from myguest.models import Guest
+
+# Create your views here.
+def MainFunc(request):
+    msg = "<h1>홈페이지</h1>"
+    return render(request, 'main.html', {'msg':msg})
+
+
+
+def ListFunc(request):
+    gdatas = Guest.objects.all()
+    print(gdatas)
+    print(Guest.objects.get(id=1))
+    print(Guest.objects.filter(id=1))
+    print(Guest.objects.filter(title='안녕'))
+    print(Guest.objects.filter(title_contains='안녕'))
+    # ... 
+    
+    
+    

@@ -1,0 +1,22 @@
+from django.shortcuts import render
+from sangpum.models import Maker
+
+# Create your views here.
+def Main(request):
+    return render(request, 'main.html')
+
+
+def List1(request):
+    makers = Maker.objects.all()
+    return render(request, 'list1.html', {'makers':makers})
+
+
+def List2(request):
+    products = product.objects.all()
+    return render(request, 'list1.html', {'makers':makers})
+
+
+
+def List3(request):
+    pass
+

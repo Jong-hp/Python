@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;django3_/session&apos; to &apos;sessionapp&apos;" description="Rename resource &apos;session&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="session" name="sessionapp" stamp="1665974610345" updateReferences="true"/>
+</session>

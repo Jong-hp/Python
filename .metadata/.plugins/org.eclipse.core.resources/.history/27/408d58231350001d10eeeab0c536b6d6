@@ -1,0 +1,6 @@
+from django.shortcuts import render
+import time
+
+# Create your views here.
+def indexFunc(request):
+    return render(request, 'abc.html')

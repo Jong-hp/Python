@@ -1,0 +1,14 @@
+from django.shortcuts import render
+
+# Create your views here.
+def Main(request):
+    return render(request, 'main.html')
+
+def List1(request):
+    pass
+
+def List2(request):
+    pass
+
+def List3(request):
+    pass

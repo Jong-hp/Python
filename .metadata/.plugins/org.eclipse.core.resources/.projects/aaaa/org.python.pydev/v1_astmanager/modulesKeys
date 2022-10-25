@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+aaaa.__init__|C:\work\psou\aaaa\aaaa\__init__.py
+aaaa.asgi|C:\work\psou\aaaa\aaaa\asgi.py
+aaaa.settings|C:\work\psou\aaaa\aaaa\settings.py
+aaaa.urls|C:\work\psou\aaaa\aaaa\urls.py
+aaaa.wsgi|C:\work\psou\aaaa\aaaa\wsgi.py
+jikwons.__init__|C:\work\psou\aaaa\jikwons\__init__.py
+jikwons.admin|C:\work\psou\aaaa\jikwons\admin.py
+jikwons.apps|C:\work\psou\aaaa\jikwons\apps.py
+jikwons.migrations.0001_initial|C:\work\psou\aaaa\jikwons\migrations\0001_initial.py
+jikwons.migrations.__init__|C:\work\psou\aaaa\jikwons\migrations\__init__.py
+jikwons.models|C:\work\psou\aaaa\jikwons\models.py
+jikwons.tests|C:\work\psou\aaaa\jikwons\tests.py
+jikwons.views|C:\work\psou\aaaa\jikwons\views.py
+manage|C:\work\psou\aaaa\manage.py

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+let xhr;
+
+window.onload = function(){
+	
+}
+</script>
+</head>
+<body>
+Ajax 연습 : 원격 DB 자료 보기<p/>
+</body>
+</html>

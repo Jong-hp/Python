@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+window.onload = funtion(){
+	document.querySelector("#btnOk")
+}
+</script>
+</head>
+<body>
+<table>
+	<tr>
+		<td>
+			<img src="/static/images/sajin.jpg" style="width:100%"/>
+		</td>
+		<pre>
+		원가 100,000
+		할인가 80,000
+		주문시 해택
+		</pre>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<form action="cart" name="frm" method="post">{% csrf_token %}
+			<input type="hidden" name="name" value="자켓">
+			<input type="hidden" name="price" value="80000">
+			<input type="button" id="btnOk" value="장바구니담기">
+			<input type="button" value="홈으로" onclick="history.back()">
+			</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;django4_shop/basket_app/setce&apos; to &apos;static&apos;" description="Rename resource &apos;setce&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="basket_app/setce" name="static" stamp="1665978878397" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;django4_shop/basket_app/static/images/sajin.jpg&apos; to &apos;pic1.jpg&apos;" description="Rename resource &apos;sajin.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="basket_app/static/images/sajin.jpg" name="pic1.jpg" stamp="1665984407769" updateReferences="true"/>
+</session>

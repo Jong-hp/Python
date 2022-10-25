@@ -1,0 +1,14 @@
+MODULES_MANAGER_V3
+basket_app.__init__|C:\work\psou\django4_shop\basket_app\__init__.py
+basket_app.admin|C:\work\psou\django4_shop\basket_app\admin.py
+basket_app.apps|C:\work\psou\django4_shop\basket_app\apps.py
+basket_app.migrations.__init__|C:\work\psou\django4_shop\basket_app\migrations\__init__.py
+basket_app.models|C:\work\psou\django4_shop\basket_app\models.py
+basket_app.tests|C:\work\psou\django4_shop\basket_app\tests.py
+basket_app.views|C:\work\psou\django4_shop\basket_app\views.py
+django4_shop.__init__|C:\work\psou\django4_shop\django4_shop\__init__.py
+django4_shop.asgi|C:\work\psou\django4_shop\django4_shop\asgi.py
+django4_shop.settings|C:\work\psou\django4_shop\django4_shop\settings.py
+django4_shop.urls|C:\work\psou\django4_shop\django4_shop\urls.py
+django4_shop.wsgi|C:\work\psou\django4_shop\django4_shop\wsgi.py
+manage|C:\work\psou\django4_shop\manage.py

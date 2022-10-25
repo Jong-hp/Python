@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+let xhr;
+
+window.onload = function(){
+	document.querySelector("#btnOk1").onclick = function(){
+		xhr = new XMLHttpRequest()
+		xhr.onreadystatechange = function(){
+			if (xhr.readyState === XMLHttpRequest.DONE){
+				if(xhr.status === 200){
+					process1();
+				}
+			}
+		}
+		url = "calldb1";
+		xhr.open("GET", url, true);
+		xhr.send();
+	}
+}
+
+function process1(){
+	
+}
+</script>
+</head>
+<body>
+Ajax 연습 : 원격 DB 자료 보기<p/>
+<button id="btnOk1">상품자료 출력 1</button>
+<br>
+<div id="showData1"></div>
+<hr>
+<button id="btnOk2">상품자료 출력 2</button>
+<br>
+<div id="showData2"></div>
+</body>
+</html>

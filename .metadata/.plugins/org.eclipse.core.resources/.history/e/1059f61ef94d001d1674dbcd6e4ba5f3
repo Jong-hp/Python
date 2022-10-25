@@ -1,0 +1,6 @@
+from django.shortcuts import render
+
+# Create your views here.
+def MainFunc(request):
+    msg = "<h1></h1>"
+    request render(request, 'main.html')

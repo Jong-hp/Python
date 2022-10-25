@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+window.onload = function(){
+	document.getElementById("btnOk").onclick = confirmFunc;
+	document.querySelector("btnShow").onclick = function(){
+		// alert('b');
+		document.location.href="/guest/select";
+	};
+}
+
+function confirmFunc(){
+	// alert('a');
+}
+</script>
+</head>
+<body>
+** 방명록 글 쓰기 **<p/>
+<form action="/guest/insertok" method="post">{% csrf_token %}
+<!-- onsubmit="return false" form 안에 넣어두면 이벤트 해지 기능-->
+<table>
+	<tr>
+		<td>제 목 : </td>
+		<td><input type="text" name="title" size="51"></td>
+	</tr>
+	<tr>
+		<td>내 용 : </td>
+		<td>
+			<textarea rows="5" cols="50" name="content"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" id="btmOk" value="등록하기">
+			<input type="button" id="btmShow" value="목록보기">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

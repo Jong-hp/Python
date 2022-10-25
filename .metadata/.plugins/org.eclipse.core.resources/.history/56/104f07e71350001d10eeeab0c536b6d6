@@ -1,0 +1,28 @@
+from django.shortcuts import render
+import time
+
+# Create your views here.
+
+lan = {
+    'id':123,
+    'name':'파이썬',
+    'history':[
+        {'date':2022-10-20}
+    ]
+    
+}
+def testFunc():
+    
+
+
+def indexFunc(request):
+    return render(request, 'abc.html')
+
+
+def Func1(request):
+    pass
+
+
+def Func2(request):
+    pass
+

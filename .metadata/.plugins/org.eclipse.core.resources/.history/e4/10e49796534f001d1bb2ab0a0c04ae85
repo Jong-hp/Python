@@ -1,0 +1,10 @@
+from django.urls import path
+from myboard.views import view1
+
+urlpatterns = [
+    path('list', view1.listFunc),
+    
+    path('list', view1.insertFunc),
+
+    
+]

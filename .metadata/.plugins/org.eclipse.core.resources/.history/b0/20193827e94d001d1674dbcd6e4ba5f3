@@ -1,0 +1,6 @@
+from django.db import models
+
+# Create your models here.
+# Database Table을 class로 선언
+
+class Article(models.Model):

@@ -1,0 +1,65 @@
+from django.shortcuts import render
+import MySQLdb
+from mysangpum.models import Sangdata
+
+config = {
+    'host':'127.0.0.1',
+    'user':'root',
+    'password':'123',
+    'database':'test',
+    'port':3306,
+    'charset':'utf8',
+    'use_unicode':True
+}
+
+
+# Create your views here.
+def MainFunc(request):
+    return render(request, 'main.html')
+
+
+def ListFunc(request):
+    # SQL문 직접 사용
+    """
+    sql = "select * from sangdata"
+    conn = MySQLdb.connect(**config)    # dict type
+    cursor = conn.cursor()
+    datas = cursor.fetchall()
+    print(datas, type(datas))
+    """
+    
+    datas = Sangdata.objects.all() # ORM 반환형 QuerySet
+    
+    return render(request, 'list.html', {'sangpums':datas})
+
+def InsertFunc(request): 
+    return render(request, 'insert.html')
+
+
+def InsertOkFunc(request):
+    if request.method == 'POST':
+        # 신상품 code 등록 여부 판단
+        try:
+            Sangdata.objects.get(code=request.POST.get('code'))
+            return render(request, 'insert.html', {'msg':'이미 등록된 code입니다.'})
+        except Exception as e:
+            # 입력 자료의 code가 등록된 숫자가 아니므로 insert 작업을 진행
+            Sangdata(
+                    code=request.POST.get('code'),
+                    sang=request.POST.get('sang')
+                    su=request.POST.get('su')
+                    dan=request.POST.get('dan')
+                ).save()
+
+
+def UpdateFunc(request):
+    pass
+
+
+def UpdateOkFunc(request):  
+    pass
+
+
+def DeleteFunc(request): 
+    pass
+
